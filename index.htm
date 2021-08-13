@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>START</title>
+  <meta name="description" value="The search engine that doesn't track you. Learn More.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/colors.css">
+  <link rel="stylesheet" type="text/css" href="./css/modal.css">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link rel="icon" type="image/png" href="./img/se.png">
+  <meta name="author" value="vanGato">
+</head>
+<body>
+  <div class="index">
+    <section class="index__header">
+      <div class="index__logo"></div>
+      <ul class="index__nav">
+        <li class="index__active"><a>Search</a></li>
+        
+        <li><a href="serp.htm">All Movies</a></li>
+        <li><a href="req.htm">Request a Movie</a></li>
+      </ul>
+      <div class="index__search">
+        <form class="index__form" action="serp.htm" methode="GET">
+          <div>
+            <input name="q" type="search" value="Write the Movie Name"
+                   class="index__query" 
+                   maxlength="512"
+                   autocomplete="off"
+                   title="Search"
+                   aria-label="Search"
+                   dir="ltr"
+                   spellcheck="false"
+                   autofocus="autofocus"
+            >
+          </div>
+          <button class="index__button" aria-label="Search" type="submit">
+            <div class="index__ico"></div>
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="index__footer">
+      <div class="index__bottom">
+       
+        <p class="index__copyright">&copy; 2021 Pablochocobae</p>
+      </div>
+    </footer>
+  </div>
+  
+</body>
+</html>
